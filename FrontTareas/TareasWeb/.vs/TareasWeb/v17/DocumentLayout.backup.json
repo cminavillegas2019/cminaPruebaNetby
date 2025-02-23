@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\PRUEBACM\\cminaNetby\\FrontTareas\\TareasWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8896596-51DE-4FF0-810D-857499587700}|TareasWeb\\TareasWeb.csproj|c:\\pruebacm\\cminanetby\\fronttareas\\tareasweb\\tareasweb\\pages\\editartarea.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8896596-51DE-4FF0-810D-857499587700}|TareasWeb\\TareasWeb.csproj|solutionrelative:tareasweb\\pages\\editartarea.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8896596-51DE-4FF0-810D-857499587700}|TareasWeb\\TareasWeb.csproj|c:\\pruebacm\\cminanetby\\fronttareas\\tareasweb\\tareasweb\\pages\\agregartarea.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8896596-51DE-4FF0-810D-857499587700}|TareasWeb\\TareasWeb.csproj|solutionrelative:tareasweb\\pages\\agregartarea.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8896596-51DE-4FF0-810D-857499587700}|TareasWeb\\TareasWeb.csproj|c:\\pruebacm\\cminanetby\\fronttareas\\tareasweb\\tareasweb\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8896596-51DE-4FF0-810D-857499587700}|TareasWeb\\TareasWeb.csproj|solutionrelative:tareasweb\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 236,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditarTarea.razor",
+              "DocumentMoniker": "C:\\PRUEBACM\\cminaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\Pages\\EditarTarea.razor",
+              "RelativeDocumentMoniker": "TareasWeb\\Pages\\EditarTarea.razor",
+              "ToolTip": "C:\\PRUEBACM\\cminaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\Pages\\EditarTarea.razor",
+              "RelativeToolTip": "TareasWeb\\Pages\\EditarTarea.razor",
+              "ViewState": "AgIAADEAAAAAZmZmZuYcwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T02:53:53.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AgregarTarea.razor",
+              "DocumentMoniker": "C:\\PRUEBACM\\cminaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\Pages\\AgregarTarea.razor",
+              "RelativeDocumentMoniker": "TareasWeb\\Pages\\AgregarTarea.razor",
+              "ToolTip": "C:\\PRUEBACM\\cminaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\Pages\\AgregarTarea.razor",
+              "RelativeToolTip": "TareasWeb\\Pages\\AgregarTarea.razor",
+              "ViewState": "AgIAAAcAAAAAzczMzAwmwBgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T02:53:12.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\PRUEBACM\\cminaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "TareasWeb\\Pages\\Home.razor",
+              "ToolTip": "C:\\PRUEBACM\\cminaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\Pages\\Home.razor",
+              "RelativeToolTip": "TareasWeb\\Pages\\Home.razor",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwEUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T02:52:37.815Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

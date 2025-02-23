@@ -1,0 +1,49 @@
+﻿@page "/agregar"
+@using WebTareas.Models
+@using WebTareas.Services
+@inject TareaService TareaService
+@inject NavigationManager Navigation
+
+<h3>Agregar Tarea</h3>
+
+<EditForm Model="nuevaTarea" OnValidSubmit="GuardarTarea">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label for="titulo" class="form-label">Título</label>
+        <InputText id="titulo" class="form-control" @bind-Value="nuevaTarea.Titulo" />
+    </div>
+
+    <div class="mb-3">
+        <label for="descripcion" class="form-label">Descripción</label>
+        <InputTextArea id="descripcion" class="form-control" @bind-Value="nuevaTarea.Descripcion" />
+    </div>
+
+    <div class="mb-3">
+        <label for="fechaCreacion" class="form-label">Fecha de Creacion</label>
+        <InputDate id="fechaCreacion" class="form-control" @bind-Value="nuevaTarea.FechaCreacion" />
+    </div>
+
+    <div class="mb-3">
+        <label for="fechaVencimiento" class="form-label">Fecha de Vencimiento</label>
+        <InputDate id="fechaVencimiento" class="form-control" @bind-Value="nuevaTarea.FechaVencimiento" />
+    </div>
+
+    <div class="mb-3 form-check">
+        <InputCheckbox id="completada" class="form-check-input" @bind-Value="nuevaTarea.Completada" />
+        <label class="form-check-label" for="completada">Completada</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</EditForm>
+
+@code {
+    private Tarea nuevaTarea = new Tarea();
+
+    private async Task GuardarTarea()
+    {
+        await TareaService.CrearTareaAsync(nuevaTarea);
+        Navigation.NavigateTo("/");
+    }
+}

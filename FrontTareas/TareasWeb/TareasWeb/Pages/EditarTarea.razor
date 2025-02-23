@@ -1,0 +1,59 @@
+﻿@page "/editar/{Id:int}"
+@using WebTareas.Models
+@using WebTareas.Services
+@inject TareaService TareaService
+@inject NavigationManager Navigation
+
+<h3>Editar Tarea</h3>
+
+<EditForm Model="tarea" OnValidSubmit="ActualizarTarea">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label for="titulo" class="form-label">Título</label>
+        <InputText id="titulo" class="form-control" @bind-Value="tarea.Titulo" />
+    </div>
+
+    <div class="mb-3">
+        <label for="descripcion" class="form-label">Descripción</label>
+        <InputTextArea id="descripcion" class="form-control" @bind-Value="tarea.Descripcion" />
+    </div>
+
+    <div class="mb-3">
+        <label for="fechaCreacion" class="form-label">Fecha de Creacion</label>
+        <InputDate id="fechaCreacion" class="form-control" @bind-Value="tarea.FechaCreacion" />
+    </div>
+
+    <div class="mb-3">
+        <label for="fechaVencimiento" class="form-label">Fecha de Vencimiento</label>
+        <InputDate id="fechaVencimiento" class="form-control" @bind-Value="tarea.FechaVencimiento" />
+    </div>
+
+    <div class="mb-3 form-check">
+        <InputCheckbox id="completada" class="form-check-input" @bind-Value="tarea.Completada" />
+        <label class="form-check-label" for="completada">Completada</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private Tarea tarea = new Tarea();
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Obtener la tarea por ID al iniciar la página
+        tarea = await TareaService.ObtenerTareaPorIdAsync(Id);
+    }
+
+    private async Task ActualizarTarea()
+    {
+        // Actualizar la tarea usando el servicio
+        await TareaService.ActualizarTareaAsync(tarea);
+        Navigation.NavigateTo("/");
+    }
+}

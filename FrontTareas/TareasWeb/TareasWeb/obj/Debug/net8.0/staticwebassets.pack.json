@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\PRUEBACM\\cminaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\PRUEBACM\\cminaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\PRUEBACM\\cminaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\PRUEBACM\\cminaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TareasWeb.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TareasWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TareasWeb.props",
+      "PackagePath": "build\\TareasWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TareasWeb.props",
+      "PackagePath": "buildMultiTargeting\\TareasWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TareasWeb.props",
+      "PackagePath": "buildTransitive\\TareasWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

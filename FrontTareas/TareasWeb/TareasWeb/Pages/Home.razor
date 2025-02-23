@@ -1,0 +1,94 @@
+﻿@page "/"
+@using WebTareas.Models
+@using WebTareas.Services
+@inject TareaService TareaService
+@inject NavigationManager Navigation
+@inject IJSRuntime JS
+
+<h3>Lista de Tareas</h3>
+
+<!-- Botón para agregar una nueva tarea -->
+<button class="btn btn-primary mb-3" @onclick="CrearTarea">Crear Nueva Tarea</button>
+
+@if (tareas is null)
+{
+    <p>Cargando...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Descripción</th>
+                <th>Fecha Vencimiento</th>
+                <th>Completada</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var tarea in tareas)
+            {
+                <tr>
+                    <td>@tarea.Titulo</td>
+                    <td>@tarea.Descripcion</td>
+                    <td>@tarea.FechaCreacion.ToShortDateString()</td>
+                    <td>@tarea.FechaVencimiento.ToShortDateString()</td>
+                    <td>@(tarea.Completada ? "Sí" : "No")</td>
+                    <td>
+                        <!-- Botón para editar la tarea -->
+                        <button class="btn btn-warning me-2" @onclick="() => EditarTarea(tarea.Id)">Editar</button>
+
+                        <!-- Botón para eliminar la tarea -->
+                        <button class="btn btn-danger" @onclick="() => ConfirmarEliminarTarea(tarea.Id)">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Tarea> tareas;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Cargar las tareas al iniciar
+        tareas = await TareaService.ObtenerTareasAsync();
+    }
+
+    private void CrearTarea()
+    {
+        // Navegar a la página de agregar tarea
+        Navigation.NavigateTo("/agregar");
+    }
+
+    private void EditarTarea(int id)
+    {
+        // Navegar a la página de editar tarea
+        Navigation.NavigateTo($"/editar/{id}");
+    }
+
+    private async Task ConfirmarEliminarTarea(int id)
+    {
+        // Mostrar un cuadro de confirmación antes de eliminar
+        bool confirmar = await JS.InvokeAsync<bool>("confirm", "¿Estás seguro de que deseas eliminar esta tarea?");
+
+        if (confirmar)
+        {
+            // Si el usuario confirma, eliminar la tarea
+            bool eliminado = await TareaService.EliminarTareaAsync(id);
+
+            if (eliminado)
+            {
+                tareas = await TareaService.ObtenerTareasAsync(); // Recargar la lista después de eliminar
+                StateHasChanged(); // Forzar la actualización de la UI
+            }
+            else
+            {
+                // Manejo de errores si no se pudo eliminar
+                Console.WriteLine("Error al eliminar tarea");
+            }
+        }
+    }
+}
