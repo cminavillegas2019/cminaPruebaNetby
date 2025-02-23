@@ -27,3 +27,6 @@
 23/02/2025 3:02:26: Tarea actualizada 6: Nueva tarea
 23/02/2025 14:52:31: Intento fallido: Tarea no encontrada.4 
 23/02/2025 16:45:15: Nueva tarea registrado 0: nueva tarea
+23/02/2025 19:04:42: Nueva tarea registrado 0: Capacitaciones 
+23/02/2025 19:06:04: Nueva tarea registrado 0: Capacitaciones 
+23/02/2025 19:06:42: Tarea actualizada 2: Respaldo

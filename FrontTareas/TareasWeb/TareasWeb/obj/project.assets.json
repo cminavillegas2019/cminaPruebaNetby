@@ -1851,11 +1851,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PRUEBACM\\cminaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\TareasWeb.csproj",
+      "projectUniqueName": "C:\\PRUEBACM\\cminaPruebaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\TareasWeb.csproj",
       "projectName": "TareasWeb",
-      "projectPath": "C:\\PRUEBACM\\cminaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\TareasWeb.csproj",
+      "projectPath": "C:\\PRUEBACM\\cminaPruebaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\TareasWeb.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\PRUEBACM\\cminaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\obj\\",
+      "outputPath": "C:\\PRUEBACM\\cminaPruebaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

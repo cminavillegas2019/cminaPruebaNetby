@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n6E59KEPdf4=",
+  "dgSpecHash": "gog6BsLdtKo=",
   "success": true,
-  "projectFilePath": "C:\\PRUEBACM\\cminaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\TareasWeb.csproj",
+  "projectFilePath": "C:\\PRUEBACM\\cminaPruebaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\TareasWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.12\\microsoft.aspnetcore.authorization.8.0.12.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.12\\microsoft.aspnetcore.components.8.0.12.nupkg.sha512",

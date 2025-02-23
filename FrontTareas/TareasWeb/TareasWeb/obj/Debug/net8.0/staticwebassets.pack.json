@@ -1,19 +1,19 @@
 {
   "Files": [
     {
-      "Id": "C:\\PRUEBACM\\cminaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\PRUEBACM\\cminaPruebaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\PRUEBACM\\cminaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\wwwroot\\css\\app.css",
+      "Id": "C:\\PRUEBACM\\cminaPruebaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\PRUEBACM\\cminaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\wwwroot\\icon-192.png",
+      "Id": "C:\\PRUEBACM\\cminaPruebaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\PRUEBACM\\cminaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\wwwroot\\index.html",
+      "Id": "C:\\PRUEBACM\\cminaPruebaNetby\\FrontTareas\\TareasWeb\\TareasWeb\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {

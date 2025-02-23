@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "TareasWeb",
   "resources": {
-    "hash": "sha256-razYNLlzUB0xD0goYtno/8RtSavwGeyJtI5sXrCR7Gc=",
+    "hash": "sha256-r/4un8FpyIYH+nXrIN8r9YvFxbiUQfaeXDKPWcpLTRU=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-B6DNRvFeCUi3jbx9uKpuj+hV9cN0KG4RdZj1FgBZwj8="
     },
@@ -209,10 +209,10 @@
       "mscorlib.wasm": "sha256-QoC5hTKpDNO6efLnEvYwV9OJBXvYRq8/1yGhNZKiNCw=",
       "netstandard.wasm": "sha256-JT2F4bYWJpaSGq+iD0ITLpWxsDhMUjhqje9RpBtTg7w=",
       "System.Private.CoreLib.wasm": "sha256-fvIPBcvgvsRuWrKi2LGQsLYvcKUSnyIuBUsE3LJu/0Y=",
-      "TareasWeb.wasm": "sha256-SfFbSxfoea4fYJ5g8rUqnvBNuAbJmU9ufj33NmlbsUw="
+      "TareasWeb.wasm": "sha256-nmhaDsFNgbRcEYUNWpDtzoITxOC9YiAMuefhIOzNgpM="
     },
     "pdb": {
-      "TareasWeb.pdb": "sha256-rGcjFLgNYbRwx/HFO3anaFcdFCK8tl4ylJtDWFQ93x8="
+      "TareasWeb.pdb": "sha256-CIQqb1gYONJIK2yzfLZNAoGoFPs/5/EWxfCm17/wBlA="
     }
   },
   "cacheBootResources": true,
