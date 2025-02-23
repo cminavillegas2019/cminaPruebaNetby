@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TareasApi.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b376e29317dda4e4c919e7f2ad38baff0dee3d5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e62b1f018c76e83ccf0c5efabda94a982c292fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("TareasApi.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TareasApi.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

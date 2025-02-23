@@ -4428,11 +4428,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PRUEBACM\\cminaPruebaNetby\\BackEnd\\TareasApi\\TareasApi.Domain\\TareasApi.Domain.csproj",
+      "projectUniqueName": "C:\\PRUEBACM\\cminaPruebaNetby\\BackTareas\\TareasApi\\TareasApi.Domain\\TareasApi.Domain.csproj",
       "projectName": "TareasApi.Domain",
-      "projectPath": "C:\\PRUEBACM\\cminaPruebaNetby\\BackEnd\\TareasApi\\TareasApi.Domain\\TareasApi.Domain.csproj",
+      "projectPath": "C:\\PRUEBACM\\cminaPruebaNetby\\BackTareas\\TareasApi\\TareasApi.Domain\\TareasApi.Domain.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\PRUEBACM\\cminaPruebaNetby\\BackEnd\\TareasApi\\TareasApi.Domain\\obj\\",
+      "outputPath": "C:\\PRUEBACM\\cminaPruebaNetby\\BackTareas\\TareasApi\\TareasApi.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

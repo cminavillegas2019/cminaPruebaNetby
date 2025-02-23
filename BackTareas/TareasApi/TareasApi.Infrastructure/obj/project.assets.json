@@ -4448,11 +4448,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PRUEBACM\\cminaPruebaNetby\\BackEnd\\TareasApi\\TareasApi.Infrastructure\\TareasApi.Infrastructure.csproj",
+      "projectUniqueName": "C:\\PRUEBACM\\cminaPruebaNetby\\BackTareas\\TareasApi\\TareasApi.Infrastructure\\TareasApi.Infrastructure.csproj",
       "projectName": "TareasApi.Infrastructure",
-      "projectPath": "C:\\PRUEBACM\\cminaPruebaNetby\\BackEnd\\TareasApi\\TareasApi.Infrastructure\\TareasApi.Infrastructure.csproj",
+      "projectPath": "C:\\PRUEBACM\\cminaPruebaNetby\\BackTareas\\TareasApi\\TareasApi.Infrastructure\\TareasApi.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\PRUEBACM\\cminaPruebaNetby\\BackEnd\\TareasApi\\TareasApi.Infrastructure\\obj\\",
+      "outputPath": "C:\\PRUEBACM\\cminaPruebaNetby\\BackTareas\\TareasApi\\TareasApi.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4473,8 +4473,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\PRUEBACM\\cminaPruebaNetby\\BackEnd\\TareasApi\\TareasApi.Domain\\TareasApi.Domain.csproj": {
-              "projectPath": "C:\\PRUEBACM\\cminaPruebaNetby\\BackEnd\\TareasApi\\TareasApi.Domain\\TareasApi.Domain.csproj"
+            "C:\\PRUEBACM\\cminaPruebaNetby\\BackTareas\\TareasApi\\TareasApi.Domain\\TareasApi.Domain.csproj": {
+              "projectPath": "C:\\PRUEBACM\\cminaPruebaNetby\\BackTareas\\TareasApi\\TareasApi.Domain\\TareasApi.Domain.csproj"
             }
           }
         }
